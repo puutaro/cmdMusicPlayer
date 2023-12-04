@@ -34,6 +34,7 @@ Table of Contents
 
 
 ## Installation
+---------------------
 
 1. Install [ComamndClick](https://github.com/puutaro/CommandClick) to your android by [this link](https://github.com/puutaro/CommandClick#app-installation)
 2. Set up termux by [this link](https://github.com/puutaro/CommandClick/blob/master/USAGE.md#termux-setting)
