@@ -105,7 +105,7 @@ function switchByArgs(){
 			);
 			break;
 		case INSTALL_MODE:
-			cmdIntent.run(
+			jsCmdIntent.run_S(
 				"bash \"" + EXEC_SHELL_PATH + 
 				"\" \""  + INSTALL_MODE + "\""
 			);
@@ -115,7 +115,7 @@ function switchByArgs(){
 			break;
 		case SHUFFLE_MODE:
 			initFileList();
-			cmdIntent.run(
+			jsCmdIntent.run_S(
 				"bash \"" + EXEC_SHELL_PATH + 
 				"\" \"" + SHUFFLE_MODE + "\"" +
 				" \"" + EDIT_FILE_PATH + "\"" + 
@@ -125,7 +125,7 @@ function switchByArgs(){
 		case ORDINALY_MODE:
 		case REVERSE_MODE:
 			initFileList();
-			cmdIntent.run(
+			jsCmdIntent.run_S(
 				"bash \"" + EXEC_SHELL_PATH + 
 				"\" \"" + ORDINALY_MODE + "\"" + 
 				" \"" + EDIT_FILE_PATH + "\"" + 
@@ -134,7 +134,7 @@ function switchByArgs(){
 			break;
 		case NUMBER_MODE:
 			initFileList();
-			cmdIntent.run(
+			jsCmdIntent.run_S(
 				"bash \"" + EXEC_SHELL_PATH + 
 				"\" \"" + NUMBER_MODE + "\"" + 
 				" \"" + EDIT_FILE_PATH + "\"" + 
@@ -291,7 +291,7 @@ function capitalize(str) {
 };
 
 function execStop(){
-	cmdIntent.run(
+	jsCmdIntent.run_S(
 		"bash \"" + EXEC_SHELL_PATH + 
 		"\" \"" + STOP_MODE + "\""
 	);
