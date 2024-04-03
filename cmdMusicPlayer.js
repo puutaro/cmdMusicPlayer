@@ -147,7 +147,7 @@ function switchByArgs(){
 		        "musicPlayListName",
 				"renameMusicPlayListName",
 				cmdMusicPlayerEditDirPath,
-				`musicPlayListName:TXT:FSB=${FCB_DIR_PATH}=${cmdMusicPlayerEditDirPath}!${FCB_PREFIX}=${MUSIC_PREFIX}!${FCB_SUFFIX}=${tsvExtend}`,
+				`musicPlayListName:TXT:FSB=${FCB_DIR_PATH}=${cmdMusicPlayerEditDirPath}?${FCB_PREFIX}=${MUSIC_PREFIX}?${FCB_SUFFIX}=${tsvExtend}`,
 				`musicPlayListName=${musicPlayListName}\trenameMusicPlayListName=`,
 				MUSIC_PREFIX,
 				tsvExtend,
